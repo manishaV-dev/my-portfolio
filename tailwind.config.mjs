@@ -16,14 +16,15 @@ export default {
         Outfit: ["Outfit", "sans-serif"],
         Ovo: ["Ovo", "serif"],
       },
-      boxShadow:{
-        'black' : '4px 4px 0px #000',
-        'white' : '4px 4px 0px #fff',
+      boxShadow: {
+        black: "4px 4px 0px #000",
+        white: "4px 4px 0px #fff",
       },
-      gridTemplateColumns:{
-        'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
-      }
+      gridTemplateColumns: {
+        auto: "repeat(auto-fit, minmax(200px, 1fr))",
+      },
     },
   },
+  darkMode: "selector",
   plugins: [],
 };
