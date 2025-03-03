@@ -5,7 +5,7 @@ import React from "react";
 const Work = () => {
   return (
     <div id="mywork" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg font-Ovo">My Portfolior</h4>
+      <h4 className="text-center mb-2 text-lg font-Ovo">My Portfolio</h4>
       <h2 className="text-center text-5xl font-ovo">My Latest Work</h2>
 
       <p className="text-center max-w-2xl mx-auto mb-12 font-Ovo">
