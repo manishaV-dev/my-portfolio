@@ -57,7 +57,7 @@ const Hero = () => {
         </motion.a>
 
         <motion.a
-          href="/Frontend-Manisha-Varma-CV.pdf"
+          href="/Manisha-Gupta-Frontend.pdf"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
           initial={{ y: 30, opacity: 0 }}
