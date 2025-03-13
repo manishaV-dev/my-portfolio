@@ -9,7 +9,6 @@ import vscode from "./vscode.png";
 import firebase from "./firebase.png";
 import figma from "./figma.png";
 import git from "./git.png";
-import mongodb from "./mongodb.png";
 import right_arrow_white from "./right-arrow-white.png";
 import logo from "./logo.png";
 import logo_dark from "./logo_dark.png";
@@ -35,6 +34,15 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import html_logo from "./html-5.png";
+import css from "./css-3.png";
+import js from "./js.png";
+import react_logo from "./react.png";
+import typescript from "./typescript.png";
+import tailwind from "./tailwind.png";
+import bootstrap from "./bootstrap.png";
+import canva from "./canva.png";
+import chatgpt from "./chatgpt.png";
 
 export const assets = {
   user_image,
@@ -48,7 +56,6 @@ export const assets = {
   firebase,
   figma,
   git,
-  mongodb,
   right_arrow_white,
   logo,
   logo_dark,
@@ -74,27 +81,36 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  html_logo,
+  css,
+  js,
+  react_logo,
+  typescript,
+  tailwind,
+  bootstrap,
+  chatgpt,
+  canva,
 };
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
+    title: "LMS",
+    description: "Frontend Development",
     bgImage: "/work-1.png",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "Gemini Clone",
+    description: "Frontend Development",
     bgImage: "/work-2.png",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "Insload",
+    description: "Frontend Development",
     bgImage: "/work-3.png",
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
+    title: "Notes App",
+    description: "Frontend Development",
     bgImage: "/work-4.png",
   },
 ];
@@ -102,28 +118,21 @@ export const workData = [
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
+    title: "Frontend Development",
+    description: "HTML, CSS, JS, React, Bootstrap, TailwindCSS etc",
     link: "",
   },
-  {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
-    description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
-  },
+
   {
     icon: assets.ui_icon,
     title: "UI/UX design",
-    description:
-      "UI/UX design focuses on creating a seamless user experience...",
+    description: "Figma, Adobe Photoshop",
     link: "",
   },
   {
     icon: assets.graphics_icon,
     title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    description: "Adobe Photoshop, Canva",
     link: "",
   },
 ];
@@ -152,7 +161,18 @@ export const infoList = [
 export const toolsData = [
   assets.vscode,
   assets.firebase,
-  assets.mongodb,
   assets.figma,
   assets.git,
+  assets.canva,
+  assets.chatgpt,
+];
+
+export const skillSets = [
+  assets.html_logo,
+  assets.css,
+  assets.js,
+  assets.react_logo,
+  assets.typescript,
+  assets.tailwind,
+  assets.bootstrap,
 ];

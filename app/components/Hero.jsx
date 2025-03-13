@@ -23,7 +23,7 @@ const Hero = () => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        Hi! I'm Manisha Varma
+        Hi! I'm Manisha Gupta
         <Image src={assets.hand_icon} alt="hand" className="w-6" />
       </motion.h3>
 

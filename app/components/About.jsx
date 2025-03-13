@@ -1,4 +1,4 @@
-import { infoList, toolsData } from "@/assets/assets";
+import { infoList, skillSets, toolsData } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
@@ -71,6 +71,27 @@ const About = ({ isDark }) => {
               </motion.li>
             ))}
           </motion.ul>
+
+
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 1.5 }}
+            className="flex items-center gap-3 sm:gap-5 mt-6"
+          >
+            {skillSets.map((tool, index) => (
+              <motion.li
+                key={index}
+                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+                whileHover={{ scale: 1.05 }}
+              >
+                <Image src={tool} alt="tool" className="w-5 sm:w-7" />
+              </motion.li>
+            ))}
+          </motion.ul>
+
+
 
           <motion.h4
             initial={{ y: 20, opacity: 0 }}
