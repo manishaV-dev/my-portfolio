@@ -95,23 +95,39 @@ export const assets = {
 export const workData = [
   {
     title: "LMS",
-    description: "Frontend Development",
+    description: "A Learning Management System built with React, Tailwind CSS, React Router, Context API, and Clerk for authentication.",
     bgImage: "/work-1.png",
+    link: "https://learning-management-system-frontend.netlify.app/",
   },
   {
     title: "Gemini Clone",
-    description: "Frontend Development",
+    description: "A Gemini clone built with React, TailwindCSS, Context API and GenAI API, offering real-time AI chat in a sleek interface.",
     bgImage: "/work-2.png",
+    link: "https://clone-gemini-app-api.netlify.app/",
+  },
+  {
+    title: "E-Learning Website",
+    description: "A simple and responsive educational website built with HTML, CSS, and JavaScript for showcasing online classes.",
+    bgImage: "/work-1.png",
+    link: "https://topclasses.netlify.app/",
   },
   {
     title: "Insload",
-    description: "Frontend Development",
+    description: "Insload is a free and secure Instagram downloader for saving photos, videos, Reels, IGTV, and profile pictures instantly.",
     bgImage: "/work-3.png",
+    link: "https://insload.com/",
   },
   {
-    title: "Notes App",
-    description: "Frontend Development",
+    title: "React Dashboard",
+    description: "A desktop-only dashboard built with React, TailwindCSS, and Recharts, showcasing interactive charts and clean UI design.",
     bgImage: "/work-4.png",
+    link: "https://react-dashboard-design.netlify.app/",
+  },
+  {
+    title: "Business Website",
+    description: "Rasacode is a modern business website built with React and Bootstrap, offering IT, web, and digital marketing services.",
+    bgImage: "/work-3.png",
+    link: "https://rasacode.in/",
   },
 ];
 

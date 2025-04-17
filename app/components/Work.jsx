@@ -35,7 +35,7 @@ const Work = ({ isDark }) => {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
       >
-        Welcome to my web development portfolio! Explore a collection of
+        Welcome to my portfolio! Explore a collection of
         projects showcasing my expertise in front-end development
       </motion.p>
 
@@ -55,12 +55,16 @@ const Work = ({ isDark }) => {
           >
             <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
               <div>
-                <h2 className="font-semibold">{project.title}</h2>
+                <a href={project.link} target="_blank">
+                <h2 className="font-semibold text-blue-800">{project.title}</h2>
+                </a>
                 <p className="text-sm text-gray-600">{project.description}</p>
               </div>
-              <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow[2px_2px_0_#000] group-hover:bg-rose-200 transition">
-                <Image src={assets.send_icon} alt="send" className="w-5" />
-              </div>
+              {/* <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow[2px_2px_0_#000] group-hover:bg-rose-200 transition">
+                <a href={project.link} target="_blank">
+                  <Image src={assets.send_icon} alt="send" className="w-5" />
+                </a>
+              </div> */}
             </div>
           </motion.div>
         ))}
