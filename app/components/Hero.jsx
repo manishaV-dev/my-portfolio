@@ -46,7 +46,7 @@ const Hero = () => {
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
-          href="#contact"
+          href="#mycontact"
           className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent"
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
