@@ -7,7 +7,7 @@ const About = ({ isDark }) => {
   return (
     <motion.div
       id="aboutme"
-      className="w-full px-8 py-10 scroll-mt-20"
+      className="w-full px-[12%] py-10 scroll-mt-20"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.4 }}
