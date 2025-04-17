@@ -23,7 +23,7 @@ const Footer = ({ isDark }) => {
       </div>
 
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p> &copy; 2025 Manisha Varma. All rights reserved</p>
+        <p> &copy; 2025 Manisha Gupta. All rights reserved</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
             <a
@@ -37,7 +37,7 @@ const Footer = ({ isDark }) => {
 
           <li>
             <a
-              href="inkedin.com/in/manisha-varma-2526ba217/"
+              href="https://www.linkedin.com/in/manisha-gupta-2526ba217/"
               target="_blank"
               className="hover:text-rose-600 duration-500"
             >
