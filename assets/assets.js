@@ -188,7 +188,6 @@ export const skillSets = [
   assets.css,
   assets.js,
   assets.react_logo,
-  assets.typescript,
   assets.tailwind,
   assets.bootstrap,
 ];

@@ -7,7 +7,7 @@ const About = ({ isDark }) => {
   return (
     <motion.div
       id="aboutme"
-      className="w-full px-[12%] py-10 scroll-mt-20"
+      className="w-full px-8 py-10 scroll-mt-20"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.4 }}
@@ -36,7 +36,7 @@ const About = ({ isDark }) => {
         transition={{ duration: 0.6, delay: 0.8 }}
       >
         <div>
-          <p className="mb-10 max-w-2xl font-Ovo text-center">
+          <p className="mb-10 max-w-2xl font-Ovo text-center px-4">
             As a frontend developer with over 3 years of experience, I am
             passionate about crafting beautiful and responsive user interfaces
             that delight users. My expertise lies in developing web applications
@@ -46,7 +46,7 @@ const About = ({ isDark }) => {
             technologies.
           </p>
           <motion.ul
-            className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"
+            className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl px-4"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1 }}
@@ -78,7 +78,7 @@ const About = ({ isDark }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.5 }}
-            className="flex items-center gap-3 sm:gap-5 mt-6"
+            className="flex items-center gap-3 sm:gap-5 mt-6 px-4"
           >
             {skillSets.map((tool, index) => (
               <motion.li
@@ -97,7 +97,7 @@ const About = ({ isDark }) => {
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.3 }}
-            className="my-6 text-gray-700 font-Ovo dark:text-white"
+            className="my-6 text-gray-700 font-Ovo dark:text-white px-4"
           >
             Tools I use
           </motion.h4>
@@ -105,7 +105,7 @@ const About = ({ isDark }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.5 }}
-            className="flex items-center gap-3 sm:gap-5"
+            className="flex items-center gap-3 sm:gap-5 px-4"
           >
             {toolsData.map((tool, index) => (
               <motion.li
